@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: cornsilk; 
+}
+.circulo{
+    border: 2px solid #E9E6D3;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5%;
+    height: 200px;
+    width: 200px;
+}
+.uno{
+    background-color: #9FA867;
+}
+.dos{
+    background-color: #BBA99D;
+}
+.tres{
+    background-color: #F97A75;
+}
