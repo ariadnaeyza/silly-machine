@@ -1,21 +1,71 @@
-body{
+*{
+    box-sizing: content-box;
     text-align: center;
-    background-color: cornsilk; 
 }
-.circulo{
-    border: 2px solid #E9E6D3;
-    border-radius: 50%;
+
+body{
+    background-color:bisque;
+}
+
+.circle {
+    border: 2px solid pink;
+    border-radius: 100%;
     display: inline-block;
-    margin: 5%;
     height: 200px;
     width: 200px;
 }
-.uno{
-    background-color: #9FA867;
+
+.colored-circles {
+    padding: 0 5%;
+    margin: auto;
+    width: 70%;
 }
-.dos{
-    background-color: #BBA99D;
+
+.contenedor{
+    margin: auto;
+    padding: 5% 5%;
 }
-.tres{
-    background-color: #F97A75;
+
+.formulario{
+    margin: auto;
+    text-align: center;
+    width: 20%;
+}
+
+.circle{
+    border-radius: 50%;
+    display: inline-block;
+    height: 150px;
+    margin: 20px;
+    width: 150px;
+}
+
+#blue {
+    background-color:aquamarine;
+}
+
+#green {
+    background-color: lightgreen;
+}
+
+#yellow {
+    background-color: #ff6;
+}
+
+.border-blue {
+    border: 5px solid #2553FD;
+}
+
+.border-green {
+    border: 5px solid darkgreen;
+}
+
+.border-yellow {
+    border: 5px solid #F8FA68;
+}
+
+#color, #cri, #super-cri{
+    height: 30px;
+    margin: 10px 0 0 0;
+    width: 100px;
 }

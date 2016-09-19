@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Silly Machine</title>
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="circulo uno"></div>
-        <div class="circulo dos"></div>
-        <div class="circulo tres"></div>
-        <form>
-            <input type="text" name="color" id="color"><br><br>
-            <button type="button" id="cri">Cri</button><br><br>
-            <button type="button" id="supercri">Super Cri</button><br><br>
-        </form>
-        <script type="text/javascript" src="app.js"></script>
+        <section class="colored-circles">
+            <div class="contenedor">
+                <div id="blue" class="circle"></div>
+                <div id="green" class="circle"></div>
+                <div id="yellow" class="circle"></div>
+            </div>
+        </section>
+        <section class="formulario">
+            <input type="text" id="color">
+            <button id="super-cri">SUPER CRI</button>
+            <button id="cri"s>CRI</button>
+        </section>
+        <script type='text/javascript' src='js/app.js'></script>
     </body>
 </html>
